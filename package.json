@@ -1,0 +1,20 @@
+{
+  "name": "Remote-monitoring-demo",
+  "version": "1.0.0",
+  "description": "Remote-monitoring-demo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "koa": "^2.0.0",
+    "koa-send": "^5.0.0",
+    "koa-socket": "^4.4.0",
+    "koa-static": "^5.0.0",
+    "ylru": "^1.2.1"
+  }
+}
